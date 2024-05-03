@@ -2,45 +2,216 @@
   "recipes": [
     {
       "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with rich tomato sauce and ground beef.",
+      "ingredients": [
+        "Spaghetti noodles",
+        "Ground beef",
+        "Tomato sauce",
+        "Onion",
+        "Garlic",
+        "Olive oil",
+        "Salt",
+        "Black pepper",
+        "Parmesan cheese (optional)"
+      ],
+      "instructions": [
+        "Boil spaghetti noodles according to package instructions.",
+        "In a separate pan, sauté chopped onion and garlic in olive oil until translucent.",
+        "Add ground beef to the pan and cook until browned.",
+        "Pour in tomato sauce and simmer for 10-15 minutes.",
+        "Season with salt and black pepper to taste.",
+        "Serve the sauce over cooked spaghetti noodles.",
+        "Garnish with grated Parmesan cheese if desired."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 2,
+      "title": "Grilled Salmon",
+      "description": "Healthy and flavorful grilled salmon fillets seasoned with herbs.",
+      "ingredients": [
+        "Salmon fillets",
+        "Olive oil",
+        "Lemon",
+        "Fresh dill",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat grill to medium-high heat.",
+        "Rub salmon fillets with olive oil and season with salt and black pepper.",
+        "Place salmon fillets on the grill and cook for 4-5 minutes per side, or until cooked through.",
+        "Remove salmon from the grill and squeeze fresh lemon juice over the top.",
+        "Garnish with chopped fresh dill before serving."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 3,
+      "title": "Vegetable Stir-Fry",
+      "description": "Quick and easy stir-fried vegetables with a savory sauce.",
+      "ingredients": [
+        "Assorted vegetables (bell peppers, broccoli, carrots, mushrooms, etc.)",
+        "Soy sauce",
+        "Sesame oil",
+        "Garlic",
+        "Ginger",
+        "Vegetable oil",
+        "Rice (optional)"
+      ],
+      "instructions": [
+        "Cut vegetables into bite-sized pieces.",
+        "Heat vegetable oil in a large pan or wok over medium-high heat.",
+        "Add minced garlic and ginger to the pan and cook until fragrant.",
+        "Add vegetables to the pan and stir-fry until crisp-tender.",
+        "Pour in soy sauce and sesame oil, tossing to coat the vegetables evenly.",
+        "Serve the stir-fried vegetables over cooked rice if desired."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 4,
+      "title": "Chicken Caesar Salad",
+      "description": "Classic salad featuring grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": [
+        "Grilled chicken breast",
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan cheese",
+        "Caesar dressing",
+        "Lemon wedges (optional)"
+      ],
+      "instructions": [
+        "Chop grilled chicken breast into bite-sized pieces.",
+        "Tear romaine lettuce into bite-sized pieces and place in a large salad bowl.",
+        "Add croutons, grated Parmesan cheese, and chopped chicken to the bowl.",
+        "Drizzle Caesar dressing over the salad and toss to coat evenly.",
+        "Serve with lemon wedges on the side if desired."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 5,
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "ingredients": [
+        "Pizza dough",
+        "Tomatoes",
+        "Fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat oven to 450°F (230°C).",
+        "Roll out pizza dough on a baking sheet or pizza stone.",
+        "Slice tomatoes and fresh mozzarella cheese thinly.",
+        "Arrange tomato slices and mozzarella cheese on the pizza dough.",
+        "Drizzle olive oil over the top and season with salt and black pepper.",
+        "Bake in the preheated oven for 12-15 minutes, or until the crust is golden brown.",
+        "Remove from oven and garnish with fresh basil leaves before serving."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 6,
+      "title": "Beef Tacos",
+      "description": "Tasty tacos filled with seasoned ground beef, lettuce, cheese, salsa, and sour cream.",
+      "ingredients": [
+        "Ground beef",
+        "Taco seasoning",
+        "Taco shells",
+        "Lettuce",
+        "Shredded cheese",
+        "Salsa",
+        "Sour cream",
+        "Tomatoes (optional)",
+        "Avocado (optional)"
+      ],
+      "instructions": [
+        "Brown ground beef in a skillet over medium heat.",
+        "Stir in taco seasoning and cook until meat is fully cooked and seasoned.",
+        "Warm taco shells in the oven according to package instructions.",
+        "Fill each taco shell with seasoned beef.",
+        "Top with shredded lettuce, cheese, salsa, sour cream, and any other desired toppings.",
+        "Serve immediately, garnished with sliced tomatoes and avocado if desired."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 7,
+      "title": "Vegetarian Chili",
+      "description": "Hearty chili made with beans, vegetables, and flavorful spices.",
+      "ingredients": [
+        "Kidney beans",
+        "Black beans",
+        "Corn",
+        "Tomatoes",
+        "Onion",
+        "Bell peppers",
+        "Garlic",
+        "Vegetable broth",
+        "Chili powder",
+        "Cumin",
+        "Paprika",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "In a large pot, sauté chopped onion, garlic, and bell peppers until softened.",
+        "Add diced tomatoes, kidney beans, black beans, and corn to the pot.",
+        "Pour in vegetable broth and stir to combine.",
+        "Season with chili powder, cumin, paprika, salt, and black pepper.",
+        "Simmer the chili over medium-low heat for 20-30 minutes, stirring occasionally.",
+        "Serve hot, garnished with chopped fresh cilantro and a dollop of sour cream if desired."
+      ]
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
+      "id": 8,
+      "title": "Pasta Primavera",
+      "description": "Light and colorful pasta dish with assorted spring vegetables and a creamy sauce.",
+      "ingredients": [
+        "Pasta (such as fettuccine or penne)",
+        "Assorted vegetables (zucchini, yellow squash, cherry tomatoes, bell peppers, etc.)",
+        "Olive oil",
+        "Garlic",
+        "Heavy cream",
+        "Parmesan cheese",
+        "Fresh basil",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Cook pasta according to package instructions until al dente.",
+        "Meanwhile, heat olive oil in a large skillet over medium heat.",
+        "Add minced garlic to the skillet and cook until fragrant.",
+        "Add assorted vegetables to the skillet and sauté until tender-crisp.",
+        "Pour in heavy cream and simmer until slightly thickened.",
+        "Stir in cooked pasta and grated Parmesan cheese.",
+        "Season with salt and black pepper to taste.",
+        "Garnish with fresh basil before serving."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "BBQ Pulled Pork Sandwiches",
+      "description": "Slow-cooked pulled pork sandwiches smothered in tangy barbecue sauce.",
+      "ingredients": [
+        "Pork shoulder or butt",
+        "BBQ sauce",
+        "Hamburger buns",
+        "Coleslaw (optional)",
+        "Pickles (optional)"
+      ],
+      "instructions": [
+        "Season pork shoulder or butt with salt and black pepper.",
+        "Place pork in a slow cooker and pour BBQ sauce over the top.",
+        "Cook on low for 8-10 hours, or until pork is tender and falls apart easily.",
+        "Remove pork from slow cooker and shred with two forks.",
+        "Serve pulled pork on hamburger buns, topped with extra BBQ sauce.",
+        "Add coleslaw and pickles for extra flavor and crunch if desired."
+      ]
     }
   ],
+
+
+
   "recipe-details": [
     {
       "id": 1,
