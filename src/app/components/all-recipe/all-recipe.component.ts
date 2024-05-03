@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from 'src/app/interfaces/recipe';
 import { CrudService } from 'src/app/services/crud.service';
@@ -14,7 +13,6 @@ export class AllRecipeComponent implements OnInit {
   error: string = '';
 
   constructor(
-    private http: HttpClient,
     private crudService: CrudService
   ){
 
