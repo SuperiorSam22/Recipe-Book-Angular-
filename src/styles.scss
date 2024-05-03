@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body{
+  background-image: url("./assets/top-view-seasonings-salt-inside-bowls-dark-blue-background-pepper-salt-seasoning-photo-color.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 500px; /* set the height of the div */
+}
