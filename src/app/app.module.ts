@@ -9,7 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { AllRecipeComponent } from './components/all-recipe/all-recipe.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RecipeCardsComponent } from './components/recipe-cards/recipe-cards.component';
-import { FooterComponent } from './components/footer/footer.component'
+import { FooterComponent } from './components/footer/footer.component';
+import { InputFormComponent } from './components/input-form/input-form.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './components/footer/footer.component'
     HomeComponent,
     AllRecipeComponent,
     RecipeCardsComponent,
-    FooterComponent
+    FooterComponent,
+    InputFormComponent
   ],
   imports: [
     BrowserModule,
