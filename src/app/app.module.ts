@@ -9,7 +9,11 @@ import { HomeComponent } from './components/home/home.component';
 import { AllRecipeComponent } from './components/all-recipe/all-recipe.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RecipeCardsComponent } from './components/recipe-cards/recipe-cards.component';
-import { FooterComponent } from './components/footer/footer.component'
+import { FooterComponent } from './components/footer/footer.component';
+import { InputFormComponent } from './components/input-form/input-form.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetailsPageComponent } from './components/details-page/details-page.component'
+
 
 @NgModule({
   declarations: [
@@ -18,13 +22,17 @@ import { FooterComponent } from './components/footer/footer.component'
     HomeComponent,
     AllRecipeComponent,
     RecipeCardsComponent,
-    FooterComponent
+    FooterComponent,
+    InputFormComponent,
+    DetailsPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

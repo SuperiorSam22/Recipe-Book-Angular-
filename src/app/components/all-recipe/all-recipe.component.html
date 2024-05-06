@@ -1,1 +1,19 @@
-<p>all-recipe works!</p>
+<h1>Recipes</h1>
+
+<div *ngIf="error">
+  <p>{{ error }}</p>  </div>
+
+<div *ngFor="let recipe of recipes">
+  <h2>{{ recipe.title }}</h2>
+  <p>{{ recipe.description }}</p>
+  <h3>Ingredients</h3>
+  <ul>
+    <li *ngFor="let ingredient of recipe.ingredients">{{ ingredient }}</li>
+  </ul>
+  <h3>Instructions</h3>
+  <ol>
+    <li *ngFor="let instruction of recipe.instructions">{{ instruction }}</li>
+  </ol>
+  <button (click)="deleteRecipe(recipe.id)">Delete</button>
+</div>
+<app-footer></app-footer>
