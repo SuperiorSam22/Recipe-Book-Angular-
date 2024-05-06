@@ -1,1 +1,47 @@
-<p>input-form works!</p>
+<form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" class="form-control" id="title" formControlName="title" required>
+      <div *ngIf="inputForm.get('title')?.invalid">
+        <div *ngIf="inputForm.get('title')?.errors">
+          Title is required.
+        </div>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea class="form-control" id="description" formControlName="description" required></textarea>
+      <div *ngIf="inputForm.get('description')?.invalid">
+        <div *ngIf="inputForm.get('description')?.errors">
+          Description is required.
+        </div>
+      </div>
+    </div>
+  
+    <h4>Ingredients:</h4>
+    <div formArrayName="ingredients">
+      <div *ngFor="let ingredient of ingredientsFromArray.controls; let i = index">
+        <div class="form-group">
+          <label for="ingredient-{{i}}">Ingredient {{i + 1}}:</label>
+          <input type="text" class="form-control" id="ingredient-{{i}}" [formControlName]="i">
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="addIngredient()">Add Ingredient</button>
+  
+    <h4>Instructions:</h4>
+    <div formArrayName="instructions">
+      <div *ngFor="let instruction of instructionsFormArray.controls; let i = index">
+        <div class="form-group">
+          <label for="instruction-{{i}}">Step {{i + 1}}:</label>
+          <textarea class="form-control" id="instruction-{{i}}" [formControlName]="i"></textarea>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="addInstructions()">Add Instruction</button>
+  
+    <button type="submit" class="btn btn-success">Submit</button>
+  
+  </form>

@@ -4,4 +4,6 @@
     </div>
     <h3>{{recipe.title}}</h3>
     <p>{{recipe.description}}</p>
+    
+    <button [routerLink]="['/recipes', recipe.id]">View Dish</button>
 </div>

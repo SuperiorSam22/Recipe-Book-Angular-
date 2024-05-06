@@ -25,6 +25,20 @@ export class AllRecipeComponent implements OnInit {
     });
   }
 
+  deleteRecipe(id: number) {
+    this.crudService.deleteRecipe(id)
+      .subscribe({
+        next: () => {
+          this.recipes = this.recipes.filter(recipe => recipe.id !== id); // Update UI
+          console.log("Recipe deleted successfully!");
+        },
+        error: (error) => {
+          console.error("Error deleting recipe:", error);
+          // Handle errors (e.g., display error message to user)
+        }
+      });
+  }
+
 
 
 }

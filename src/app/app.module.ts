@@ -11,6 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { RecipeCardsComponent } from './components/recipe-cards/recipe-cards.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InputFormComponent } from './components/input-form/input-form.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetailsPageComponent } from './components/details-page/details-page.component'
+
 
 @NgModule({
   declarations: [
@@ -20,13 +23,16 @@ import { InputFormComponent } from './components/input-form/input-form.component
     AllRecipeComponent,
     RecipeCardsComponent,
     FooterComponent,
-    InputFormComponent
+    InputFormComponent,
+    DetailsPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -56,6 +56,11 @@
                 width: 200px;
             }
         }
+        p {
+            &:hover{
+                cursor:pointer;
+            }
+        } 
        
     }
 
@@ -71,12 +76,11 @@
         }
     }
 
-    .recipe-card-container{
-        display: flex;
+    .recipe-card-container {
         width: 80%;
-        flex-wrap: wrap;
-        gap: 25px;
+        display: flex;
         justify-content: center;
+        gap: 10px;
     }
 
     .footer{
