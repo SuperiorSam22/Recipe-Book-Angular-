@@ -10,6 +10,7 @@ import { CrudService } from 'src/app/services/crud.service';
 export class AllRecipeComponent implements OnInit {
 
   recipes: Recipe[] = [];
+  filteredRecipes: Recipe[] = [];
   error: string = '';
 
   constructor(
@@ -39,6 +40,14 @@ export class AllRecipeComponent implements OnInit {
       });
   }
 
+
+  onFilterTermChange(searchTerm: string) {
+    this.filteredRecipes = this.recipes.filter(recipe => recipe.title.toLowerCase().includes(searchTerm.toLowerCase()));
+  }
+
+  onFilterRecipes(recipes: Recipe[]) {
+    this.filteredRecipes = recipes; // Update filtered recipes
+  }
 
 
 }

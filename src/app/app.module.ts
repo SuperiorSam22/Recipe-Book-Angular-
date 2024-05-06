@@ -12,7 +12,8 @@ import { RecipeCardsComponent } from './components/recipe-cards/recipe-cards.com
 import { FooterComponent } from './components/footer/footer.component';
 import { InputFormComponent } from './components/input-form/input-form.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { DetailsPageComponent } from './components/details-page/details-page.component'
+import { DetailsPageComponent } from './components/details-page/details-page.component';
+import { RecipeFilterComponent } from './components/recipe-filter/recipe-filter.component'
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { DetailsPageComponent } from './components/details-page/details-page.com
     RecipeCardsComponent,
     FooterComponent,
     InputFormComponent,
-    DetailsPageComponent
+    DetailsPageComponent,
+    RecipeFilterComponent
   ],
   imports: [
     BrowserModule,

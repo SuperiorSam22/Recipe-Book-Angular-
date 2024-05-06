@@ -1,5 +1,14 @@
 <h1>Recipes</h1>
 
+<label>search for recipe</label>
+<app-recipe-filter [allRecipes]="recipes" (filteredRecipes)="onFilterRecipes($event)"></app-recipe-filter>
+
+<ul>
+  <li *ngFor="let recipe of filteredRecipes">
+    {{ recipe.title }}
+  </li>
+</ul>
+
 <div *ngIf="error">
   <p>{{ error }}</p>  </div>
 
@@ -17,3 +26,4 @@
   <button (click)="deleteRecipe(recipe.id)">Delete</button>
 </div>
 <app-footer></app-footer>
+
