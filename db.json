@@ -1,6 +1,115 @@
 {
   "recipes": [
     {
+      "id": 2,
+      "title": "Grilled Salmon",
+      "description": "Healthy and flavorful grilled salmon fillets seasoned with herbs.",
+      "ingredients": [
+        "Salmon fillets",
+        "Olive oil",
+        "Lemon",
+        "Fresh dill",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat grill to medium-high heat.",
+        "Rub salmon fillets with olive oil and season with salt and black pepper.",
+        "Place salmon fillets on the grill and cook for 4-5 minutes per side, or until cooked through.",
+        "Remove salmon from the grill and squeeze fresh lemon juice over the top.",
+        "Garnish with chopped fresh dill before serving."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Stir-Fry",
+      "description": "Quick and easy stir-fried vegetables with a savory sauce.",
+      "ingredients": [
+        "Assorted vegetables (bell peppers, broccoli, carrots, mushrooms, etc.)",
+        "Soy sauce",
+        "Sesame oil",
+        "Garlic",
+        "Ginger",
+        "Vegetable oil",
+        "Rice (optional)"
+      ],
+      "instructions": [
+        "Cut vegetables into bite-sized pieces.",
+        "Heat vegetable oil in a large pan or wok over medium-high heat.",
+        "Add minced garlic and ginger to the pan and cook until fragrant.",
+        "Add vegetables to the pan and stir-fry until crisp-tender.",
+        "Pour in soy sauce and sesame oil, tossing to coat the vegetables evenly.",
+        "Serve the stir-fried vegetables over cooked rice if desired."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chicken Caesar Salad",
+      "description": "Classic salad featuring grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": [
+        "Grilled chicken breast",
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan cheese",
+        "Caesar dressing",
+        "Lemon wedges (optional)"
+      ],
+      "instructions": [
+        "Chop grilled chicken breast into bite-sized pieces.",
+        "Tear romaine lettuce into bite-sized pieces and place in a large salad bowl.",
+        "Add croutons, grated Parmesan cheese, and chopped chicken to the bowl.",
+        "Drizzle Caesar dressing over the salad and toss to coat evenly.",
+        "Serve with lemon wedges on the side if desired."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "ingredients": [
+        "Pizza dough",
+        "Tomatoes",
+        "Fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat oven to 450°F (230°C).",
+        "Roll out pizza dough on a baking sheet or pizza stone.",
+        "Slice tomatoes and fresh mozzarella cheese thinly.",
+        "Arrange tomato slices and mozzarella cheese on the pizza dough.",
+        "Drizzle olive oil over the top and season with salt and black pepper.",
+        "Bake in the preheated oven for 12-15 minutes, or until the crust is golden brown.",
+        "Remove from oven and garnish with fresh basil leaves before serving."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Beef Tacos",
+      "description": "Tasty tacos filled with seasoned ground beef, lettuce, cheese, salsa, and sour cream.",
+      "ingredients": [
+        "Ground beef",
+        "Taco seasoning",
+        "Taco shells",
+        "Lettuce",
+        "Shredded cheese",
+        "Salsa",
+        "Sour cream",
+        "Tomatoes (optional)",
+        "Avocado (optional)"
+      ],
+      "instructions": [
+        "Brown ground beef in a skillet over medium heat.",
+        "Stir in taco seasoning and cook until meat is fully cooked and seasoned.",
+        "Warm taco shells in the oven according to package instructions.",
+        "Fill each taco shell with seasoned beef.",
+        "Top with shredded lettuce, cheese, salsa, sour cream, and any other desired toppings.",
+        "Serve immediately, garnished with sliced tomatoes and avocado if desired."
+      ]
+    },
+    {
       "id": 7,
       "title": "Vegetarian Chili",
       "description": "Hearty chili made with beans, vegetables, and flavorful spices.",
@@ -55,71 +164,22 @@
       ]
     },
     {
-      "title": "sdfgsd",
-      "description": "sdfgsdgfs",
+      "title": "New Custom recipe ",
+      "description": "Have to make it somehow ",
       "ingredients": [
-        "sdfgsd",
-        "gsdfgsd",
-        "sdfgsdg"
+        "water",
+        "oil ",
+        "massala ",
+        "more oil ",
+        "vegies "
       ],
       "instructions": [
-        "sdfgsdfg",
-        "sdfgsdg",
-        "sdfgsdg"
-      ],
-      "id": 9
-    },
-    {
-      "title": "Something ",
-      "description": "Something is never gonna make something ",
-      "ingredients": [
-        "1 something ",
-        "1 nothing ",
-        "1 everything "
-      ],
-      "instructions": [
-        "Add something in something ",
-        "then add nothing in something ",
-        "do something to something ",
-        "then something will happen to something ",
-        "then wait and do nothing "
+        "turn of the gas ",
+        "put the frying pan on ",
+        "add water add veggies ",
+        "cook "
       ],
       "id": 10
     }
-  ],
-  "recipe-details": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "description": "lorem ipsum"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
