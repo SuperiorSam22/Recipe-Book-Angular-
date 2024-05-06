@@ -85,19 +85,6 @@
         "then wait and do nothing "
       ],
       "id": 10
-    },
-    {
-      "title": "asdfa",
-      "description": "asdfasdf",
-      "ingredients": [
-        "sadf",
-        "asdfa"
-      ],
-      "instructions": [
-        "asdfasdf",
-        "sdafsdf"
-      ],
-      "id": 11
     }
   ],
   "recipe-details": [

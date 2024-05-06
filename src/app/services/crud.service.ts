@@ -56,9 +56,9 @@ export class CrudService {
     if (error.error instanceof ErrorEvent) {
       errorMessage = 'An error occurred: ' + error.error.message;
     } else {
-      errorMessage = `Backend returned code ${error.status}: ${error.message}`;
+      errorMessage = `${error.status} : ${error.message}`;
     }
-    return throwError(errorMessage);
+    return throwError(() => new Error(errorMessage));
   }
 
   
