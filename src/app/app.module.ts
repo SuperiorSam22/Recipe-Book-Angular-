@@ -13,7 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { InputFormComponent } from './components/input-form/input-form.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DetailsPageComponent } from './components/details-page/details-page.component';
-import { RecipeFilterComponent } from './components/recipe-filter/recipe-filter.component'
+import { RecipeFilterComponent } from './components/recipe-filter/recipe-filter.component';
+import { LoginComponent } from './components/login/login.component'
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { RecipeFilterComponent } from './components/recipe-filter/recipe-filter.
     FooterComponent,
     InputFormComponent,
     DetailsPageComponent,
-    RecipeFilterComponent
+    RecipeFilterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
